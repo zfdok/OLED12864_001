@@ -1616,6 +1616,12 @@
         <name>$PROJ_DIR$\main.c</name>
     </file>
     <file>
+        <name>$PROJ_DIR$\OLED12864.c</name>
+    </file>
+    <file>
+        <name>$PROJ_DIR$\OLED12864.h</name>
+    </file>
+    <file>
         <name>$PROJ_DIR$\stm_init.c</name>
     </file>
     <file>

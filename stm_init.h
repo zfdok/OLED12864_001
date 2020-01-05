@@ -8,3 +8,4 @@ typedef unsigned long uint32_t;
 #define u32 uint32_t
 
 void delay(u16 count);
+void delayms(u16 count);

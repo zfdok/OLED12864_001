@@ -1,4 +1,4 @@
-#include "iic.h"
+#include "OLED12864.h"
 #include "uart1.h"
 int main( void )
 {
@@ -46,4 +46,13 @@ int main( void )
   }
   I2C_Stop();
   ACK=0;
+  OLED_init();
+  for (u8 j = 0; j < 8; j++)
+  {
+    for (u8 i = 0; i < 128; i++)
+    {
+      OLED_SetPos(i,j);
+      OLED_Wdata(0X81);
+    }
+  }
 }
