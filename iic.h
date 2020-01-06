@@ -1,5 +1,4 @@
-#include "iostm8s208mb.h"
-#include "stm_init.h"
+#include "uart1.h"
 
 void I2C_init(void);
 void I2C_SDA_DDR(u8 ddr);

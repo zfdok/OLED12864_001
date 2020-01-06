@@ -5,7 +5,15 @@ void OLED_SetPos(u8 x,u8 y);
 void OLED_Fill(u8 bmp_dat);
 void OLED_CLS(void);
 void OLED_init(void);
+void OLED_P6x8Str(u8 x,u8 y,u8 ch[]);
+void OLED_P8x16Str(u8 x,u8 y,u8 ch[]);
+void OLED_P16x16Ch(u8 x,u8 y,u8 N);
+void OLED_P16x32Ch(u8 x,u8 y,u8 N);
+void OLED_P32x32Ch(u8 x,u8 y,u8 N);
+
+void OLED_Display();
 //void OLED_P8x16Str(u8 x, y,u8 ch[]);
 //void OLED_P16x16Ch(u8 x,u8 y,u8 N);
 
 #define Brightness 0xCF
+

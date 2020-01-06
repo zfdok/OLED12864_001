@@ -1,6 +1,10 @@
 #include "OLED12864.h"
-#include "OLED_codetab.h"
 
+extern u8 F6x8[][6];
+extern u8 F8X16[];
+extern u8 F16x16[];
+extern u8 F16x32[];
+extern u8 F32x32[];
 /*********************OLEDÐ´ÃüÁî************************************/
 void OLED_Wcmd(u8 cmd)
 {
@@ -24,7 +28,7 @@ void OLED_SetPos(u8 x,u8 y)
 {
     OLED_Wcmd(0xb0+y);
     OLED_Wcmd((( x & 0xf0)>>4)|0x10);
-    OLED_Wcmd(( x & 0x0f)|0x00);
+    OLED_Wcmd(( x & 0x0f)|0x01);
 }
 /*********************OLEDÈ«ÆÁ************************************/
 void OLED_Fill(u8 bmp_data) 
@@ -87,7 +91,130 @@ void OLED_init(void)
 	OLED_CLS(); //ÇåÆ½
 	OLED_SetPos(0,0);
 }
-// void OLED_P8x16Str(u8 x, y,u8 ch[])
-// {
+void OLED_P6x8Str(u8 x,u8 y,u8 ch[])
+{
+	u8 c=0,i=0,j=0;
+	while (ch[j]!='\0')
+	{
+		c =ch[j]-32;
+		if(x>126){x=0;y++;}
+		OLED_SetPos(x,y);
+		for(i=0;i<6;i++)
+        	OLED_Wdata(F6x8[c][i]);
+		x+=6;
+		j++;
+	}
+}
+void OLED_P8x16Str(u8 x,u8 y,u8 ch[])
+{
+	unsigned char c=0,i=0,j=0;
+	while (ch[j]!='\0')
+	{
+		c =ch[j]-32;
+		if(x>120){x=0;y++;}
+		OLED_SetPos(x,y);
+		for(i=0;i<8;i++)
+			OLED_Wdata(F8X16[c*16+i]);
+		OLED_SetPos(x,y+1);
+		for(i=0;i<8;i++)
+			OLED_Wdata(F8X16[c*16+i+8]);
+		x+=8;
+		j++;
+	}
+}
+void OLED_P16x16Ch(u8 x,u8 y,u8 N)
+{
+	u8 wm=0;
+	unsigned int adder=32*N;
+	OLED_SetPos(x , y);
+	for(wm = 0;wm < 16;wm++)
+	{
+		OLED_Wdata(F16x16[adder]);
+		adder += 1;
+	}
+	OLED_SetPos(x,y + 1);
+	for(wm = 0;wm < 16;wm++)
+	{
+		OLED_Wdata(F16x16[adder]);
+		adder += 1;
+	} 	  	
+}
+void OLED_P16x32Ch(u8 x,u8 y,u8 N)
+{
+	u8 wm=0;
+	unsigned int adder=64*N;
+	OLED_SetPos(x , y);
+	for(wm = 0;wm < 16;wm++)
+	{
+		OLED_Wdata(F16x32[adder]);
+		adder += 1;
+	}
+	OLED_SetPos(x,y + 1);
+	for(wm = 0;wm < 16;wm++)
+	{
+		OLED_Wdata(F16x32[adder]);
+		adder += 1;
+	} 	
+	OLED_SetPos(x,y + 2);
+	for(wm = 0;wm < 16;wm++)
+	{
+		OLED_Wdata(F16x32[adder]);
+		adder += 1;
+	} 
+	OLED_SetPos(x,y + 3);
+	for(wm = 0;wm < 16;wm++)
+	{
+		OLED_Wdata(F16x32[adder]);
+		adder += 1;
+	}
+}
+void OLED_P32x32Ch(u8 x,u8 y,u8 N)
+{
+	u8 wm=0;
+	unsigned int adder=64*N;
+	OLED_SetPos(x , y);
+	for(wm = 0;wm < 32;wm++)
+	{
+		OLED_Wdata(F32x32[adder]);
+		adder += 1;
+	}
+	OLED_SetPos(x,y + 1);
+	for(wm = 0;wm < 32;wm++)
+	{
+		OLED_Wdata(F32x32[adder]);
+		adder += 1;
+	} 	
+	OLED_SetPos(x,y + 2);
+	for(wm = 0;wm < 32;wm++)
+	{
+		OLED_Wdata(F32x32[adder]);
+		adder += 1;
+	} 
+	OLED_SetPos(x,y + 3);
+	for(wm = 0;wm < 32;wm++)
+	{
+		OLED_Wdata(F32x32[adder]);
+		adder += 1;
+	}
+}
+void OLED_Display()
+{
+	OLED_init();
+	OLED_P16x16Ch(0,0,13);
+	OLED_P16x16Ch(32,0,21);
+	// OLED_P8x16Str(64,0,17);
+	// OLED_P8x16Str(72,0,16);
+	// OLED_P8x16Str(80,0,16);
+	// OLED_P8x16Str(88,0,16);
+	// OLED_P8x16Str(96,0,16);
+	// OLED_P8x16Str(104,0,16);
+	OLED_P16x16Ch(112,0,17);
 
-// }
+	OLED_P16x32Ch(0,2,12);
+	OLED_P16x32Ch(16,2,2);
+	OLED_P16x32Ch(32,2,5);
+	OLED_P16x32Ch(48,2,10);
+	OLED_P16x32Ch(64,2,3);
+	OLED_P16x32Ch(80,2,7);
+	OLED_P32x32Ch(96,2,0);
+}

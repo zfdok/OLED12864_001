@@ -1,141 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
-    <fileVersion>2</fileVersion>
-    <fileChecksum>3932969781</fileChecksum>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>3001955178</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\Debug\Obj\OLED12864.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\OLED12864.pbi</file>
-            <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
-            <file>$TOOLKIT_DIR$\config\lnkstm8s208mb.icf</file>
-            <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
-            <file>$PROJ_DIR$\Debug\Exe\OLED12864.out</file>
-            <file>$PROJ_DIR$\Debug\Obj\iic.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\io_macros.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm_init.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\uart1.o</file>
-            <file>$PROJ_DIR$\iostm8s208mb.h</file>
-            <file>$PROJ_DIR$\stm_init.c</file>
-            <file>$PROJ_DIR$\uart1.c</file>
-            <file>$PROJ_DIR$\stm_init.h</file>
-            <file>$PROJ_DIR$\uart1.h</file>
-            <file>$PROJ_DIR$\iic.c</file>
             <file>$PROJ_DIR$\iic.h</file>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\OLED12864.pbd</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\iic.c</file>
             <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\OLED12864.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\OLED_codeTab.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\iic.xcl</file>
             <file>$PROJ_DIR$\Debug\List\OLED12864.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm_init.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart1.xcl</file>
+            <file>$PROJ_DIR$\OLED_codeTab.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\OLED_codeTab.xcl</file>
             <file>$PROJ_DIR$\Debug\Obj\iic.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\uart1.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\stm_init.pbi</file>
-            <file>$PROJ_DIR$\codeTab.c</file>
-            <file>$PROJ_DIR$\OLED12864.h</file>
-            <file>$PROJ_DIR$\OLED12864.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
             <file>$PROJ_DIR$\OLED_codeTab.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\stm_init.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\io_macros.h</file>
+            <file>$PROJ_DIR$\iostm8s208mb.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart1.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+            <file>$PROJ_DIR$\OLED12864.c</file>
+            <file>$PROJ_DIR$\uart1.c</file>
+            <file>$PROJ_DIR$\uart1.h</file>
+            <file>$PROJ_DIR$\OLED12864.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\OLED12864.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\OLED12864.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+            <file>$PROJ_DIR$\stm_init.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\OLED12864.out</file>
+            <file>$TOOLKIT_DIR$\config\lnkstm8s208mb.icf</file>
+            <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
+            <file>$PROJ_DIR$\stm_init.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 5 30</file>
+                    <file> 37 6</file>
                 </tool>
             </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Debug\Exe\OLED12864.out</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 30</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 3 31 8 0 9 10 29 4</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\stm_init.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 9</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 35</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 14 11 7</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 7 11 14</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\uart1.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 10</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 34</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCSTM8</name>
-                    <file> 15 11 7 20 33 26 28 2 25 23 22 21 27 14</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 2 20 33 11 7 21 28 25 15 14 26 27 23 22</file>
-                </tool>
-            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\iic.c</name>
             <outputs>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 31</file>
+                    <name>BICOMP</name>
+                    <file> 5</file>
                 </tool>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 6</file>
+                    <name>ICCSTM8</name>
+                    <file> 14</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 17 11 7 14</file>
+                    <file> 0 29 22 21 20 25 32 12 39 15 41 26 31 35 36</file>
                 </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\OLED_codeTab.c</name>
+            <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 7 11 17 14</file>
+                    <file> 13</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 4</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 36 22 21</file>
                 </tool>
             </inputs>
         </file>
@@ -143,26 +99,22 @@
             <name>$PROJ_DIR$\main.c</name>
             <outputs>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 19</file>
-                </tool>
-                <tool>
-                    <name>ICCSTM8</name>
+                    <name>BICOMP</name>
                     <file> 8</file>
                 </tool>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 32</file>
+                    <name>ICCSTM8</name>
+                    <file> 7</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 23</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 37 17 11 7 14 15 20 33 26 28 2 25 23 22 21 27</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 2 17 14 33 15 11 7 20 21 28 25 37 26 27 23 22</file>
+                    <file> 30 0 29 22 21 20 25 32 12 39 15 41 26 31 35 36 16</file>
                 </tool>
             </inputs>
         </file>
@@ -170,22 +122,71 @@
             <name>$PROJ_DIR$\OLED12864.c</name>
             <outputs>
                 <tool>
-                    <name>ICCSTM8</name>
-                    <file> 0</file>
+                    <name>BICOMP</name>
+                    <file> 3</file>
                 </tool>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 1</file>
+                    <name>ICCSTM8</name>
+                    <file> 34</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 37 17 11 7 14 39</file>
+                    <file> 30 0 29 22 21 20 25 32 12 39 15 41 26 31 35 36</file>
                 </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\uart1.c</name>
+            <outputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 11 17 7 37 14 39</file>
+                    <file> 10</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 29 22 21 20 25 32 12 39 15 41 26 31 35 36</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\OLED12864.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 6</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 38 14 7 34 19 24 2 18</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\stm_init.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9</file>
+                </tool>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 19</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCSTM8</name>
+                    <file> 36 22 21</file>
                 </tool>
             </inputs>
         </file>
