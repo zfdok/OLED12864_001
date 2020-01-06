@@ -15,5 +15,5 @@ void OLED_Display();
 //void OLED_P8x16Str(u8 x, y,u8 ch[]);
 //void OLED_P16x16Ch(u8 x,u8 y,u8 N);
 
-#define Brightness 0xCF
+#define Brightness 0xC0
 

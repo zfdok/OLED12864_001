@@ -1,18 +1,18 @@
-main.pbi: C:\Users\16282\Desktop\STM8_DEMO\OLED12864_001\main.c \
-  C:\Users\16282\Desktop\STM8_DEMO\OLED12864_001/OLED12864.h \
-  C:\Users\16282\Desktop\STM8_DEMO\OLED12864_001/iic.h \
-  C:\Users\16282\Desktop\STM8_DEMO\OLED12864_001/uart1.h \
-  C:\Users\16282\Desktop\STM8_DEMO\OLED12864_001/iostm8s208mb.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\io_macros.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdio.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\LIB\dlstm8smn.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
-  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ysizet.h \
+main.pbi: \
+  C:\Users\Administrator\Desktop\stm8_learn\OLED12864\OLED12864_001\OLED_codeTab.h \
+  C:\Users\Administrator\Desktop\stm8_learn\OLED12864\OLED12864_001\stm_init.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ystdio.h \
-  C:\Users\16282\Desktop\STM8_DEMO\OLED12864_001/stm_init.h \
-  C:\Users\16282\Desktop\STM8_DEMO\OLED12864_001/OLED_codeTab.h
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ysizet.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Threads.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\xencoding_limits.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdio.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\io_macros.h \
+  C:\Users\Administrator\Desktop\stm8_learn\OLED12864\OLED12864_001\iostm8s208mb.h \
+  C:\Users\Administrator\Desktop\stm8_learn\OLED12864\OLED12864_001\uart1.h \
+  C:\Users\Administrator\Desktop\stm8_learn\OLED12864\OLED12864_001\iic.h \
+  C:\Users\Administrator\Desktop\stm8_learn\OLED12864\OLED12864_001\OLED12864.h \
+  C:\Users\Administrator\Desktop\stm8_learn\OLED12864\OLED12864_001\main.c

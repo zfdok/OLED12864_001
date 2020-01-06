@@ -1,14 +1,14 @@
-"C:\Users\16282\Desktop\STM8_DEMO\OLED12864_001\stm_init.c"
+"C:\Users\Administrator\Desktop\stm8_learn\OLED12864\OLED12864_001\stm_init.c"
 -std=c99
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-C:\Users\16282\Desktop\STM8_DEMO\OLED12864_001\Debug\Obj\stm_init.pbi.dep
+C:\Users\Administrator\Desktop\stm8_learn\OLED12864\OLED12864_001\Debug\Obj\stm_init.pbi.dep
 -o
 stm_init.pbi
 -I
-C:\Users\16282\Desktop\STM8_DEMO\OLED12864_001
+C:\Users\Administrator\Desktop\stm8_learn\OLED12864\OLED12864_001
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc
 -I

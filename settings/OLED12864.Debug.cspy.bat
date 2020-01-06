@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\16282\Desktop\STM8_DEMO\OLED12864_001\settings\OLED12864.Debug.general.xcl" --backend -f "C:\Users\16282\Desktop\STM8_DEMO\OLED12864_001\settings\OLED12864.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Administrator\Desktop\stm8_learn\OLED12864\OLED12864_001\settings\OLED12864.Debug.general.xcl" --backend -f "C:\Users\Administrator\Desktop\stm8_learn\OLED12864\OLED12864_001\settings\OLED12864.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\16282\Desktop\STM8_DEMO\OLED12864_001\settings\OLED12864.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\16282\Desktop\STM8_DEMO\OLED12864_001\settings\OLED12864.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\Administrator\Desktop\stm8_learn\OLED12864\OLED12864_001\settings\OLED12864.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Administrator\Desktop\stm8_learn\OLED12864\OLED12864_001\settings\OLED12864.Debug.driver.xcl" 
 
 @echo off 
 :end

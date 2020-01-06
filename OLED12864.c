@@ -37,7 +37,7 @@ void OLED_Fill(u8 bmp_data)
 	for(y=0;y<8;y++)
 	{
 		OLED_Wcmd(0xb0+y);
-		OLED_Wcmd(0x01);
+		OLED_Wcmd(0x00);
 		OLED_Wcmd(0x10);
 		for(x=0;x<128;x++)
 		OLED_Wdata(bmp_data);
@@ -50,7 +50,7 @@ void OLED_CLS(void)
 	for(y=0;y<8;y++)
 	{
 		OLED_Wcmd(0xb0+y);
-		OLED_Wcmd(0x01);
+		OLED_Wcmd(0x00);
 		OLED_Wcmd(0x10);
 		for(x=0;x<128;x++)
 		OLED_Wdata(0);
@@ -201,20 +201,17 @@ void OLED_Display()
 {
 	OLED_init();
 	OLED_P16x16Ch(0,0,13);
-	OLED_P16x16Ch(32,0,21);
-	// OLED_P8x16Str(64,0,17);
-	// OLED_P8x16Str(72,0,16);
-	// OLED_P8x16Str(80,0,16);
-	// OLED_P8x16Str(88,0,16);
-	// OLED_P8x16Str(96,0,16);
-	// OLED_P8x16Str(104,0,16);
+	OLED_P16x16Ch(16,0,21);
+	OLED_P16x16Ch(32,0,12);
+	OLED_P8x16Str(64,0,"09:27");
 	OLED_P16x16Ch(112,0,17);
-
 	OLED_P16x32Ch(0,2,12);
 	OLED_P16x32Ch(16,2,2);
 	OLED_P16x32Ch(32,2,5);
 	OLED_P16x32Ch(48,2,10);
 	OLED_P16x32Ch(64,2,3);
 	OLED_P16x32Ch(80,2,7);
-	OLED_P32x32Ch(96,2,0);
+	OLED_P32x32Ch(96,2,0); 
+	OLED_P6x8Str(0,7,"14321");
+    OLED_P6x8Str(64,7,"2020-01-08");
 }
